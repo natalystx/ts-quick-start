@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "docker run -it $(docker build -q .)",
-    "dev": "ts-node-dev --respawn app/main.ts"
+    "start": "ts-node-dev --respawn app/main.ts"
   },
   "keywords": [],
   "author": "",
